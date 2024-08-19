@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="85FADBAC-1BDE-270E-32FA-F988E45547E8" name="VEHICLE_MAKE">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:18:53 UTC</createdTime>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="vehicle_make_id" id="4A4AE55C-1631-91CA-5DF5-9902CAB1A50E">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:19:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[vehicle make id]]></commentInRDBMS>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vehicle_make" id="490C985D-DDCE-9D95-30FE-6AF0E394F767">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:19:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[vehicle make]]></commentInRDBMS>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="44E35916-BA5D-9B14-7F6A-9BA28860D46C" name="VEHICLE_MAKE PK">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:19:44 UTC</createdTime>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4A4AE55C-1631-91CA-5DF5-9902CAB1A50E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

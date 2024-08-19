@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="96E28DF7-CC88-4A20-C77B-C3B697B88399" name="DRIVER_TRAINING_MODULE">
+<createdBy>khadi</createdBy>
+<createdTime>2024-04-27 10:48:22 UTC</createdTime>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dtm_id" id="EDCB0866-15C9-BA2D-0A3D-208515D0B025">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 13:29:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[surrogate key]]></commentInRDBMS>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="training_code" id="8C345B79-0419-31C6-2ABC-B475C8AF6FC6">
+<createdBy>khadi</createdBy>
+<createdTime>2024-04-27 11:01:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[training code]]></commentInRDBMS>
+<generatorID>1D267312-C553-1B8D-A30B-C1F191AEFB6F</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<referedAttribute>BF1E9A23-ACC4-86FD-6609-D81C176E1352</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dtm_date_completed" id="B48845A1-FF93-BA8A-F536-D8D3C4B9A60B">
+<createdBy>khadi</createdBy>
+<createdTime>2024-04-27 11:06:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[date of training module completion]]></commentInRDBMS>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="driver_id" id="8EF19F85-6A89-B907-293C-FE3A43494ADC">
+<createdBy>khadi</createdBy>
+<createdTime>2024-04-27 11:07:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Driver ID]]></commentInRDBMS>
+<generatorID>CBFDF222-9AA0-04CC-57C3-A6333F20AAD3</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<referedAttribute>61807490-C71D-30E6-EEE7-8135095857E6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6693D26C-2CC0-D643-B125-F84C841B05AB" name="DRIVER_TRAINING_MODULE PK">
+<createdBy>khadi</createdBy>
+<createdTime>2024-04-27 11:01:36 UTC</createdTime>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="false"/>
+</engineerTo>
+<newElementsIDs>8C345B79-0419-31C6-2ABC-B475C8AF6FC6,B48845A1-FF93-BA8A-F536-D8D3C4B9A60B,8EF19F85-6A89-B907-293C-FE3A43494ADC</newElementsIDs>
+<usedAttributes>
+<attributeRef>8C345B79-0419-31C6-2ABC-B475C8AF6FC6</attributeRef>
+<attributeRef>B48845A1-FF93-BA8A-F536-D8D3C4B9A60B</attributeRef>
+<attributeRef>8EF19F85-6A89-B907-293C-FE3A43494ADC</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="1555C566-498B-6321-F5CE-0E5272955DA4" name="DRIVER_TRAINING_MODULE_NK">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 13:29:00 UTC</createdTime>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>1D267312-C553-1B8D-A30B-C1F191AEFB6F,CBFDF222-9AA0-04CC-57C3-A6333F20AAD3,EDCB0866-15C9-BA2D-0A3D-208515D0B025</newElementsIDs>
+<usedAttributes>
+<attributeRef>EDCB0866-15C9-BA2D-0A3D-208515D0B025</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

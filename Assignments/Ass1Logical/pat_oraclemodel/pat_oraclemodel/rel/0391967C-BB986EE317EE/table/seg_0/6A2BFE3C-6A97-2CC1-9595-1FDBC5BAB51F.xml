@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6A2BFE3C-6A97-2CC1-9595-1FDBC5BAB51F" name="LOCATION">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<generatorID>C73C3C0C-1477-BEA7-4FBB-D2830AE1EE43</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="location_id" id="741FC385-ECAB-E274-901E-D24591AC99C9">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[Location ID]]></commentInRDBMS>
+<generatorID>B45FC8E1-32FB-64F6-44EF-9B3A735FF2A6</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location_name" id="A8097D92-C044-FE6B-85EB-342A954886DF">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[Location name ]]></commentInRDBMS>
+<generatorID>5F645C44-2F8B-B012-BD5B-43FAA383D6A9</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location_type" id="425F26D3-2893-EDEB-C9E4-E4FAD852EBBD">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[Location type]]></commentInRDBMS>
+<generatorID>77C1A5CA-36C5-02D4-2C1D-A155ABF3F02B</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location_address" id="EC74D83D-C8C3-2803-A8D9-E78F2AFBD149">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[Location address]]></commentInRDBMS>
+<generatorID>FFE2DBD8-387E-3475-EBE7-94936D8EA31E</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="67E17F7F-BA53-068E-F3A7-87CCAE7A1F86" name="LOCATION_PK">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<generatorID>5360E752-58B7-5F07-9CC0-634FEEE1D243</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="741FC385-ECAB-E274-901E-D24591AC99C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

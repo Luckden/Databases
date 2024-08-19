@@ -1,0 +1,271 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="03EF7BBA-8FC8-68B3-F20D-F2A2948599A6" name="TRIP">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<generatorID>19AB5C3A-6A04-618A-ABCD-C25079A2BF66</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="trip_id" id="6424C141-4148-4865-FB95-B8237EA1F2CF">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[trip code]]></commentInRDBMS>
+<generatorID>AF26E84E-4CF6-A80B-619B-2DA10A9B7E3D</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="trip_passenger_number" id="23F27674-E0AC-FEEE-4179-6F9019D43F17">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[num passenger]]></commentInRDBMS>
+<generatorID>0E5C5198-0759-6696-37F7-89C1B13E147A</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="trip_intended_pickup_datetime" id="ABCF3F9F-ACBC-E82B-36CF-089C74BDC08C">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[intended pickup datetime]]></commentInRDBMS>
+<generatorID>1F31280D-3959-72AC-57B4-6E84EB5F569C</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="trip_actual_pickup_datetime" id="D36EB0AC-0FA1-4ADD-1A23-7EC64EFF2467">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[actual pickup datetime]]></commentInRDBMS>
+<generatorID>0164CDB2-D8D0-C0B7-CD12-F0FEEEB6B82B</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="trip_intended_dropoff_datetime" id="3DFAE1D8-ECAF-C4E8-8448-B39DE86A3928">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[intended dropoff datetime]]></commentInRDBMS>
+<generatorID>EC986F72-560E-E65D-F61E-CCDA219B4B18</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="trip_actual_dropoff_datetime" id="FC4B0FBC-0016-C3AC-3D88-092778145784">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[actual dropoff datetime]]></commentInRDBMS>
+<generatorID>40AE3B20-2B51-B70B-6FF5-8EE80D097D5C</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="off_id" id="A721056E-E144-16D5-9D24-FB7C4AB0FABE">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[official id]]></commentInRDBMS>
+<generatorID>D8DBAABE-564F-5646-1DBD-75645956C006</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F670DCB5-BE0D-3BFA-973E-626946B2FB8E" referredColumn="90CD1A90-79E4-0451-AC25-AAD876A74D3C"/>
+</associations>
+</Column>
+<Column name="vehicle_vin" id="42C1700A-A126-A85B-7220-126278F8B878">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[vin num]]></commentInRDBMS>
+<generatorID>CED5689B-320F-510A-1F6C-950CF9289062</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>17</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5E08CC57-6299-3961-42C7-44F1A5A3666F" referredColumn="6265E815-C421-A83C-F58E-257058EC032B"/>
+</associations>
+</Column>
+<Column name="driver_id" id="26ECF967-AA44-2EB3-A5B1-AE61B4AC2EF1">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[Driver ID]]></commentInRDBMS>
+<generatorID>20D00971-9E56-FE62-C841-4ED9B9002AA9</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4AEFDE4F-826D-C95C-D158-0617C8E71F24" referredColumn="279D8879-9304-6B24-3D03-3221EF43442D"/>
+</associations>
+</Column>
+<Column name="l_iso" id="8E75FA71-23DE-323C-1718-43487B964E84">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[Language ISO Code]]></commentInRDBMS>
+<generatorID>A5BCD46B-75FC-E7AB-5954-0DD58A7285BE</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="41C73523-A976-88E0-1785-4A55F9800157" referredColumn="FE5946BE-C3D8-F6AE-69F0-8FDEEFC73568"/>
+</associations>
+</Column>
+<Column name="location_id" id="3D7EEE0B-F660-7A5C-3C7B-FCE60E951C52">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[Location ID]]></commentInRDBMS>
+<generatorID>7BE86855-226E-D30D-736F-F4709C47BD3B</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC4A0B59-BA4A-1C2A-A3D0-CF30106186D5" referredColumn="741FC385-ECAB-E274-901E-D24591AC99C9"/>
+</associations>
+</Column>
+<Column name="location_id1" id="A057B11F-F95A-6C45-97E3-06EC4FA19916">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[Location ID]]></commentInRDBMS>
+<generatorID>794DB2BA-B409-0C12-77BD-1E4DE3F0E985</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A342CD32-B5F6-6BA0-743C-320A1ECB745C" referredColumn="741FC385-ECAB-E274-901E-D24591AC99C9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CBCCE7A7-F542-706A-B6AF-7497DE2EA829" name="TRIP_PK">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<generatorID>9A2CD485-D6B3-4962-F05E-20C1C743854A</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6424C141-4148-4865-FB95-B8237EA1F2CF"/>
+<colUsage columnID="42C1700A-A126-A85B-7220-126278F8B878"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8062EAB-B1CC-5B48-EB11-95C85A6E8C73" name="driver_trip_fk">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<generatorID>E1088E0F-2055-F85B-5D60-69E85B8CF899</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26ECF967-AA44-2EB3-A5B1-AE61B4AC2EF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E1512A0-4AAA-E0DD-E887-603F27D79FD8" name="language_trip_fk">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<generatorID>33A35A42-37DA-63C0-D477-8E9C145A7277</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E75FA71-23DE-323C-1718-43487B964E84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2697CCB-304A-2378-E2E2-BC459234221D" name="LOCATION_TRIP">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<generatorID>D5419043-5B44-DCD7-B5AC-98E81CE8AB8D</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D7EEE0B-F660-7A5C-3C7B-FCE60E951C52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8ECF5A6A-0D60-5647-9C3E-7F8FE51C8E96" name="official_trip_fk">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<generatorID>F6B38DEB-6801-2828-636E-74DDD5E0DC84</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A721056E-E144-16D5-9D24-FB7C4AB0FABE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A964000-EDF8-0008-0863-D636968A62F5" name="Relation_20">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<generatorID>1D5CAC28-E4C9-0666-2A54-E9E38689D821</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A057B11F-F95A-6C45-97E3-06EC4FA19916"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3087CA50-9063-9F00-A502-03144C5AA97A" name="vehicle_trip_fk">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<generatorID>86D01645-6E19-F879-CFD5-DE53663D0E52</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42C1700A-A126-A85B-7220-126278F8B878"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="38886A02-23B0-B6F3-80ED-8B9DD5C3AD47" name="VEHICLE">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-04-27 08:54:56 UTC</createdTime>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="vehicle_vin" id="47925282-067C-9F04-0981-0A09124D5F1B">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-04-27 08:55:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[vin num]]></commentInRDBMS>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>17</dataTypeSize>
+<ownDataTypeParameters>17,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vehicle_lp" id="488C8421-254C-A8D9-9EA5-57AAC5815C15">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-04-27 08:55:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[license plate num]]></commentInRDBMS>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vehicle_status" id="9C466147-4F7B-3717-9898-3EA43B1245D7">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-04-27 08:55:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Vehicle's availability, T - Available, F - Not Available]]></commentInRDBMS>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<constraintName>Vehicle_Availability</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="F" description="False"/>
+<valueDef value="T" description="True"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vehicle_capacity" id="A8360A40-3F12-1FA1-449D-18DEC6E607B7">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-04-27 08:55:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[vehicle's capacity]]></commentInRDBMS>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vehicle_year" id="B3D4FF31-595B-D9D5-1D37-69A54BD4137D">
+<createdBy>khadi</createdBy>
+<createdTime>2024-04-27 11:42:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[Vehicle year]]></commentInRDBMS>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vehicle_odometer" id="2C9CBF8E-9A50-7E01-F106-72EF89704974">
+<createdBy>khadi</createdBy>
+<createdTime>2024-04-27 11:43:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Vehicle odometer]]></commentInRDBMS>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vehicle_model_id" id="35F28B21-D60B-CCDD-D8D9-A95BE5915005">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:26:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[model_id]]></commentInRDBMS>
+<generatorID>3AA4CFFC-D172-4227-1EEB-D2462A79B3B7</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<referedAttribute>E73B88D5-34D9-4686-FF56-48E702ACA86C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="73BBA6F6-E37E-387E-90E6-769241081262" name="VEHICLE PK">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-04-27 08:55:34 UTC</createdTime>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>47925282-067C-9F04-0981-0A09124D5F1B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

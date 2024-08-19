@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EEAFF33D-E7CF-2561-3D68-6D9016083953" name="VEHICLE_DETAILS">
+<createdBy>khadi</createdBy>
+<createdTime>2024-04-27 11:46:34 UTC</createdTime>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="vehicle_model_id" id="E73B88D5-34D9-4686-FF56-48E702ACA86C">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:25:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[model_id]]></commentInRDBMS>
+<generatorID>589F096E-E10F-0511-FDF5-CE328CA82A21</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<referedAttribute>8B11AD9C-0084-CC73-159A-9FB0EAE74C22</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vehicle_make_id" id="2180D47E-EBB2-A4B7-934D-82A4D5A18E7F">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:20:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[vehicle make id]]></commentInRDBMS>
+<generatorID>A4A97FE2-54F0-F7A5-AD12-34B3A3A0F0B2</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<referedAttribute>4A4AE55C-1631-91CA-5DF5-9902CAB1A50E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="943576E5-93A4-8702-637C-F1A7C94E1581" name="VEHICLE_MODEL PK">
+<createdBy>khadi</createdBy>
+<createdTime>2024-04-27 11:48:53 UTC</createdTime>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E73B88D5-34D9-4686-FF56-48E702ACA86C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

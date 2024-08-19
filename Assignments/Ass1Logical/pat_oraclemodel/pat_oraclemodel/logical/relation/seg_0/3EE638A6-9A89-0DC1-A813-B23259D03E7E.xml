@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="driver_language_fk" directorySegmentName="seg_0" id="3EE638A6-9A89-0DC1-A813-B23259D03E7E">
+<createdBy>khadi</createdBy>
+<createdTime>2024-04-27 11:12:16 UTC</createdTime>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<sourcePk>C81ED606-8963-1ADD-00A4-7B5A6064F5CB</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>speaks</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D54EC033-A8F8-E848-0C1A-AD4DDD7F3EB3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>016C3034-25B4-3096-3114-648F4D7078B7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

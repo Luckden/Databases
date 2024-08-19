@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0C81FA0F-F405-193C-81F5-0A45E8A6404E" name="OFFICIAL">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-04-27 08:42:38 UTC</createdTime>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="off_id" id="5C4F9662-8072-F8FD-3C59-B6E4DFC796C5">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-04-27 08:43:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[official id]]></commentInRDBMS>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="off_name" id="A7E9D046-1984-1B52-B934-110EB0C19D0F">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-04-27 08:44:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[official name]]></commentInRDBMS>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="off_role" id="C65E721F-6A96-3BE2-7DDD-05886CA19D84">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-04-27 08:44:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[official role]]></commentInRDBMS>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOC_IOC_code" id="C4A76D9C-49C0-2058-0F1C-E544EB9EC898">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-04-27 09:34:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[IOC code]]></commentInRDBMS>
+<generatorID>D97FC384-CBA1-1671-9BC8-44613154B368</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<referedAttribute>1C8CB3DE-0273-5368-940D-3A128495C9F8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="off_id1" id="389B4DF2-F7F8-3585-DCE3-55AD04D9643A">
+<createdBy>khadi</createdBy>
+<createdTime>2024-04-27 11:20:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[official id]]></commentInRDBMS>
+<generatorID>481E4328-F498-8C3E-E580-90BD95BC2225</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5C4F9662-8072-F8FD-3C59-B6E4DFC796C5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EF16EBDE-B0A9-9FFF-1507-A86975D5E8A3" name="OFFICIAL PK">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-04-27 08:43:35 UTC</createdTime>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5C4F9662-8072-F8FD-3C59-B6E4DFC796C5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

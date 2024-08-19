@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4D3A543B-3CB5-A6EB-3D03-F6266DDD3605" name="NOC">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<generatorID>86828CC8-7D69-29CA-0740-31757FCE2A8E</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NOC_IOC_code" id="84078411-8F90-9781-BA58-062EB2D5306F">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[IOC code]]></commentInRDBMS>
+<generatorID>1C8CB3DE-0273-5368-940D-3A128495C9F8</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOC_name" id="C687C96D-ADB4-E8CB-683F-429E019B112B">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOC name]]></commentInRDBMS>
+<generatorID>CFFEED79-6BCA-3BEF-C4BF-FC2EDB1608CC</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOC_population" id="A0EE25A6-0D51-C429-C521-C353E3D2DA5F">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[noc population]]></commentInRDBMS>
+<generatorID>9F562823-C99E-3B7A-A02F-A66018E2A731</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="26D0E757-9F90-56A4-E999-51F01E15C112" name="NOC_PK">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<generatorID>510E586B-8009-F9AF-7156-C2609492E676</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84078411-8F90-9781-BA58-062EB2D5306F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

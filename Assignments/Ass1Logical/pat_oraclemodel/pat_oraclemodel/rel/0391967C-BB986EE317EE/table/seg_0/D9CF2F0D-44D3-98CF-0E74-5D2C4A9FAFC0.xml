@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D9CF2F0D-44D3-98CF-0E74-5D2C4A9FAFC0" name="OFFICIAL">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<generatorID>0C81FA0F-F405-193C-81F5-0A45E8A6404E</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="off_id" id="90CD1A90-79E4-0451-AC25-AAD876A74D3C">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[official id]]></commentInRDBMS>
+<generatorID>5C4F9662-8072-F8FD-3C59-B6E4DFC796C5</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="off_name" id="C07033F4-B5C5-073D-3E86-8047A161016D">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[official name]]></commentInRDBMS>
+<generatorID>A7E9D046-1984-1B52-B934-110EB0C19D0F</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="off_role" id="7FFAA35A-CE87-57B0-8494-1540AEAE11DC">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[official role]]></commentInRDBMS>
+<generatorID>C65E721F-6A96-3BE2-7DDD-05886CA19D84</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOC_IOC_code" id="D7ABEA9A-D334-DC3B-BF43-A45985B4983A">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[IOC code]]></commentInRDBMS>
+<generatorID>C4A76D9C-49C0-2058-0F1C-E544EB9EC898</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9ACC8C4A-3DC6-08C8-7BEC-254BEB303A4A" referredColumn="84078411-8F90-9781-BA58-062EB2D5306F"/>
+</associations>
+</Column>
+<Column name="off_id1" id="FDCA9065-47F7-6920-C880-6D7F7BEED462">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[official id]]></commentInRDBMS>
+<generatorID>389B4DF2-F7F8-3585-DCE3-55AD04D9643A</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7AAA90D0-0FC5-AD84-CDE8-186927F15D4D" referredColumn="90CD1A90-79E4-0451-AC25-AAD876A74D3C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="45102CC7-7B98-8DDC-DC02-729AC1A4CD63" name="OFFICIAL_PK">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<generatorID>EF16EBDE-B0A9-9FFF-1507-A86975D5E8A3</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90CD1A90-79E4-0451-AC25-AAD876A74D3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C5A8292-56EA-AD1A-820A-82E7E62AC08F" name="noc_official_fk">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<generatorID>D97FC384-CBA1-1671-9BC8-44613154B368</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7ABEA9A-D334-DC3B-BF43-A45985B4983A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC4A2147-77F5-B1EE-DA2A-4DB9664AC7FA" name="official_chef_fk">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<generatorID>481E4328-F498-8C3E-E580-90BD95BC2225</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDCA9065-47F7-6920-C880-6D7F7BEED462"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

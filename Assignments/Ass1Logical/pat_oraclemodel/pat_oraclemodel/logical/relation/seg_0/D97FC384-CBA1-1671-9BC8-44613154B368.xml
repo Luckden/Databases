@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="noc_official_fk" directorySegmentName="seg_0" id="D97FC384-CBA1-1671-9BC8-44613154B368">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-04-27 09:34:13 UTC</createdTime>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<sourcePk>510E586B-8009-F9AF-7156-C2609492E676</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>has</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>86828CC8-7D69-29CA-0740-31757FCE2A8E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0C81FA0F-F405-193C-81F5-0A45E8A6404E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

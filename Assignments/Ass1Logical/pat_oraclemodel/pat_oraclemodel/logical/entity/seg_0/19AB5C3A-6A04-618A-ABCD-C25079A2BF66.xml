@@ -1,0 +1,213 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="19AB5C3A-6A04-618A-ABCD-C25079A2BF66" name="TRIP">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-04-27 09:12:51 UTC</createdTime>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="trip_id" id="AF26E84E-4CF6-A80B-619B-2DA10A9B7E3D">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-04-27 09:12:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[trip code]]></commentInRDBMS>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="trip_passenger_number" id="0E5C5198-0759-6696-37F7-89C1B13E147A">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-04-27 09:12:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[num passenger]]></commentInRDBMS>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="trip_intended_pickup_datetime" id="1F31280D-3959-72AC-57B4-6E84EB5F569C">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-04-27 09:12:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[intended pickup datetime]]></commentInRDBMS>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="trip_actual_pickup_datetime" id="0164CDB2-D8D0-C0B7-CD12-F0FEEEB6B82B">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-04-27 09:12:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[actual pickup datetime]]></commentInRDBMS>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="trip_intended_dropoff_datetime" id="EC986F72-560E-E65D-F61E-CCDA219B4B18">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-04-27 09:27:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[intended dropoff datetime]]></commentInRDBMS>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="trip_actual_dropoff_datetime" id="40AE3B20-2B51-B70B-6FF5-8EE80D097D5C">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-04-27 09:28:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[actual dropoff datetime]]></commentInRDBMS>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="off_id" id="D8DBAABE-564F-5646-1DBD-75645956C006">
+<createdBy>khadi</createdBy>
+<createdTime>2024-04-27 10:51:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[official id]]></commentInRDBMS>
+<generatorID>F6B38DEB-6801-2828-636E-74DDD5E0DC84</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<referedAttribute>5C4F9662-8072-F8FD-3C59-B6E4DFC796C5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vehicle_vin" id="CED5689B-320F-510A-1F6C-950CF9289062">
+<createdBy>khadi</createdBy>
+<createdTime>2024-04-27 11:00:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[vin num]]></commentInRDBMS>
+<generatorID>86D01645-6E19-F879-CFD5-DE53663D0E52</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<referedAttribute>47925282-067C-9F04-0981-0A09124D5F1B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>17</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="driver_id" id="20D00971-9E56-FE62-C841-4ED9B9002AA9">
+<createdBy>khadi</createdBy>
+<createdTime>2024-04-27 11:07:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Driver ID]]></commentInRDBMS>
+<generatorID>E1088E0F-2055-F85B-5D60-69E85B8CF899</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<referedAttribute>61807490-C71D-30E6-EEE7-8135095857E6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="l_iso" id="A5BCD46B-75FC-E7AB-5954-0DD58A7285BE">
+<createdBy>khadi</createdBy>
+<createdTime>2024-04-27 11:08:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[Language ISO Code]]></commentInRDBMS>
+<generatorID>33A35A42-37DA-63C0-D477-8E9C145A7277</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<referedAttribute>1B1FE93A-CE43-A979-C9FC-367CD4004682</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="location_id" id="7BE86855-226E-D30D-736F-F4709C47BD3B">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 13:24:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[Location ID]]></commentInRDBMS>
+<generatorID>D5419043-5B44-DCD7-B5AC-98E81CE8AB8D</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<referedAttribute>B45FC8E1-32FB-64F6-44EF-9B3A735FF2A6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="location_id1" id="794DB2BA-B409-0C12-77BD-1E4DE3F0E985">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 13:25:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[Location ID]]></commentInRDBMS>
+<generatorID>1D5CAC28-E4C9-0666-2A54-E9E38689D821</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<referedAttribute>B45FC8E1-32FB-64F6-44EF-9B3A735FF2A6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9A2CD485-D6B3-4962-F05E-20C1C743854A" name="TRIP PK">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-04-27 09:13:13 UTC</createdTime>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AF26E84E-4CF6-A80B-619B-2DA10A9B7E3D</attributeRef>
+<attributeRef>CED5689B-320F-510A-1F6C-950CF9289062</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

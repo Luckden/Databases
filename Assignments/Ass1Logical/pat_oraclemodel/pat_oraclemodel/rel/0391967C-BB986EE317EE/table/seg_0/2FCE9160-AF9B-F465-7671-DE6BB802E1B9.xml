@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2FCE9160-AF9B-F465-7671-DE6BB802E1B9" name="VEHICLE_FEATURE">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<generatorID>08AE8CDC-890A-B74E-BC06-32CF654CF895</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vehicle_vin" id="FA7A3CD3-F696-8319-AAE7-3BA20B49A6CB">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[vin num]]></commentInRDBMS>
+<generatorID>AE1D8955-2819-9755-6E98-59F9A6524292</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>17</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6FC64812-DA9E-82FE-AB43-EA06C4C1F401" referredColumn="6265E815-C421-A83C-F58E-257058EC032B"/>
+</associations>
+</Column>
+<Column name="feature_id" id="CF89E5BB-53B1-1609-022D-8245ED5E0815">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[feature id]]></commentInRDBMS>
+<generatorID>36E2860C-01A8-48FC-50AE-805D82C524B3</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D022324-ACBB-7313-1887-4725C7F5BA5C" referredColumn="BF0135C9-4E4D-80EC-09C1-1B7351787C22"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="504529DB-F913-6E40-1093-2954FE638C50" name="FEATURE_PKv1">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<generatorID>E33EC7BA-C303-B140-BF9B-8D8D95A52002</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA7A3CD3-F696-8319-AAE7-3BA20B49A6CB"/>
+<colUsage columnID="CF89E5BB-53B1-1609-022D-8245ED5E0815"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD7E69E1-3211-4EA4-03F6-6B08FDAAE189" name="feature_vehicle_feature_fk">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<generatorID>768F7012-D297-E95F-9DD6-44816F3F20EF</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF89E5BB-53B1-1609-022D-8245ED5E0815"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB8B459D-AE7F-20F1-1577-E99F97D3AD69" name="vehicle_feature_fk">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:41:41 UTC</createdTime>
+<generatorID>63C87231-F49E-98FF-0839-2D1D56206819</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA7A3CD3-F696-8319-AAE7-3BA20B49A6CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

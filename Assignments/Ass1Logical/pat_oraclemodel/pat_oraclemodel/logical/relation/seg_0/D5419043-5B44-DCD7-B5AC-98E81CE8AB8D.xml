@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="LOCATION_TRIP" directorySegmentName="seg_0" id="D5419043-5B44-DCD7-B5AC-98E81CE8AB8D">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 13:24:06 UTC</createdTime>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<sourcePk>5360E752-58B7-5F07-9CC0-634FEEE1D243</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>hosts</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C73C3C0C-1477-BEA7-4FBB-D2830AE1EE43</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>19AB5C3A-6A04-618A-ABCD-C25079A2BF66</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

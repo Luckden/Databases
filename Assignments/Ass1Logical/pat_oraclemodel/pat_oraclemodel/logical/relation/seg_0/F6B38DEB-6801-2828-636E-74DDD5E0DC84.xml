@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="official_trip_fk" directorySegmentName="seg_0" id="F6B38DEB-6801-2828-636E-74DDD5E0DC84">
+<createdBy>khadi</createdBy>
+<createdTime>2024-04-27 10:51:22 UTC</createdTime>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<sourcePk>EF16EBDE-B0A9-9FFF-1507-A86975D5E8A3</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>books</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0C81FA0F-F405-193C-81F5-0A45E8A6404E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>19AB5C3A-6A04-618A-ABCD-C25079A2BF66</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

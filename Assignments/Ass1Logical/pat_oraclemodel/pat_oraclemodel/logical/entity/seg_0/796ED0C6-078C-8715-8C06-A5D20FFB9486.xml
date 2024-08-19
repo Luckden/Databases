@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="796ED0C6-078C-8715-8C06-A5D20FFB9486" name="VEHICLE_MODEL">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:22:28 UTC</createdTime>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="vehicle_model_id" id="8B11AD9C-0084-CC73-159A-9FB0EAE74C22">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:24:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[model_id]]></commentInRDBMS>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vehicle model_name" id="CF6A368B-7095-70D8-ABD5-FB96A8DD6D38">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:24:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[model name]]></commentInRDBMS>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DFCBCF0D-A961-8523-73AA-203C1B4A4A95" name="VEHICLE_MODEL PK">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:24:30 UTC</createdTime>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8B11AD9C-0084-CC73-159A-9FB0EAE74C22</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

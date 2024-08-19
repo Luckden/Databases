@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="016C3034-25B4-3096-3114-648F4D7078B7" name="DRIVER_LANGUAGE">
+<createdBy>khadi</createdBy>
+<createdTime>2024-04-27 11:11:38 UTC</createdTime>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="driver_id" id="783374A9-60DA-FE27-6FB8-77852F8665C8">
+<createdBy>khadi</createdBy>
+<createdTime>2024-04-27 11:12:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[Driver ID]]></commentInRDBMS>
+<generatorID>3EE638A6-9A89-0DC1-A813-B23259D03E7E</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<referedAttribute>61807490-C71D-30E6-EEE7-8135095857E6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="l_iso" id="0DB018E2-0283-9857-5FAD-0EDE36192CC0">
+<createdBy>khadi</createdBy>
+<createdTime>2024-04-27 11:18:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Language ISO Code]]></commentInRDBMS>
+<generatorID>C99740C6-4978-3994-B60A-F25D6F80A8B2</generatorID>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<referedAttribute>1B1FE93A-CE43-A979-C9FC-367CD4004682</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="021E9920-A0EC-0D02-1EB0-76A673827879" name="DRIVER_LANGUAGE PK">
+<createdBy>khadi</createdBy>
+<createdTime>2024-04-27 11:12:16 UTC</createdTime>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>783374A9-60DA-FE27-6FB8-77852F8665C8</attributeRef>
+<attributeRef>0DB018E2-0283-9857-5FAD-0EDE36192CC0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

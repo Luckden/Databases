@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="vehicle_make_vehicle_model_fk" directorySegmentName="seg_0" id="A4A97FE2-54F0-F7A5-AD12-34B3A3A0F0B2">
+<createdBy>cheahjityung</createdBy>
+<createdTime>2024-05-01 14:20:17 UTC</createdTime>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<sourcePk>44E35916-BA5D-9B14-7F6A-9BA28860D46C</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>manufactures</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>85FADBAC-1BDE-270E-32FA-F988E45547E8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EEAFF33D-E7CF-2561-3D68-6D9016083953</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

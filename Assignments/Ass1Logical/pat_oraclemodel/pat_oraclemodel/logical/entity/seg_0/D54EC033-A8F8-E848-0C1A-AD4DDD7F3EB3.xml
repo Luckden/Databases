@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D54EC033-A8F8-E848-0C1A-AD4DDD7F3EB3" name="DRIVER">
+<createdBy>khadi</createdBy>
+<createdTime>2024-04-27 10:07:46 UTC</createdTime>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="driver_id" id="61807490-C71D-30E6-EEE7-8135095857E6">
+<createdBy>khadi</createdBy>
+<createdTime>2024-04-27 10:09:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[Driver ID]]></commentInRDBMS>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="driver_family_name" id="55C066C2-8C07-8F64-8D7B-CA60B6E3BA40">
+<createdBy>khadi</createdBy>
+<createdTime>2024-04-27 10:14:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[Driver's family name]]></commentInRDBMS>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="driver_given_name" id="6AD434B4-F225-396C-D0D7-760F8D787F45">
+<createdBy>khadi</createdBy>
+<createdTime>2024-04-27 10:15:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[Driver's given name]]></commentInRDBMS>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="driver_license_no" id="AA6C39CE-EB11-DC6F-B4ED-592521B3701B">
+<createdBy>khadi</createdBy>
+<createdTime>2024-04-27 10:16:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Driver license number]]></commentInRDBMS>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="driver_dob" id="000B1AB3-A878-65FB-81A1-C20D2C959CDD">
+<createdBy>khadi</createdBy>
+<createdTime>2024-04-27 10:17:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[driver date of birth]]></commentInRDBMS>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="driver_security" id="B2CC111E-E226-4325-DA24-957F916767CF">
+<createdBy>khadi</createdBy>
+<createdTime>2024-04-27 10:17:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Driver's security clearance, R -  Restricted, F - Full]]></commentInRDBMS>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<constraintName>chk_driversecurity</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="F" description="Full"/>
+<valueDef value="R" description="Restricted"/>
+</listOfValues>
+<defaultValue>R</defaultValue>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="driver_is_suspended" id="32EC9956-3AEC-64E7-BA28-53DDB93DFCD8">
+<createdBy>khadi</createdBy>
+<createdTime>2024-04-27 10:20:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Check is driver suspended, T - True, F - False]]></commentInRDBMS>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<constraintName>chk_driversuspended</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="F" description="False"/>
+<valueDef value="T" description="True"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="driver_training_count" id="7A451C84-F41B-DA9D-BE56-9485B7C73A25">
+<createdBy>khadi</createdBy>
+<createdTime>2024-04-27 10:23:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[count of driver completed training modules]]></commentInRDBMS>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C81ED606-8963-1ADD-00A4-7B5A6064F5CB" name="DRIVER PK">
+<createdBy>khadi</createdBy>
+<createdTime>2024-04-27 10:13:27 UTC</createdTime>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>61807490-C71D-30E6-EEE7-8135095857E6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

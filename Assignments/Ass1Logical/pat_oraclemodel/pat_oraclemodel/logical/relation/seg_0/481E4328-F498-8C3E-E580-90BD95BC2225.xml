@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="official_chef_fk" directorySegmentName="seg_0" id="481E4328-F498-8C3E-E580-90BD95BC2225">
+<createdBy>khadi</createdBy>
+<createdTime>2024-04-27 11:20:25 UTC</createdTime>
+<ownerDesignName>pat.pdf</ownerDesignName>
+<engineerTo>
+<item key="0391967C-044B-5933-F202-BB986EE317EE" value="true"/>
+</engineerTo>
+<targetPk>EF16EBDE-B0A9-9FFF-1507-A86975D5E8A3</targetPk>
+<identifying>false</identifying>
+<nameOnSource>chef of</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0C81FA0F-F405-193C-81F5-0A45E8A6404E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0C81FA0F-F405-193C-81F5-0A45E8A6404E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
